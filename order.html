@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heaven Drops: Gallery</title>
+  <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+<header>
+<nav>
+		<ul>
+			<li><a href="Home.html">HOME</a></li>
+			<li><a href="service.html">SERVICES</a></li>
+			<li><a href="product.html">PRODUCTS</a></li>
+			<li><a href="">WATER PROCESS</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+			<li><a href="order.html">ORDER</a></li>
+			<li><a href="">BRANCH MAP</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+		</ul>
+	</nav>
+	</header>
+	<form action="process_order.php" method="post">
+   <h2>Order Purified Water</h2>
+   <div class="form-control">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+   </div>
+   <div class="form-control">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+   </div>
+   <div class="form-control">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+   </div>
+   <div class="form-control">
+      <label for="address">Delivery Address</label>
+      <textarea id="address" name="address" required></textarea>
+   </div>
+   <div class="form-control">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+   </div>
+   <button type="submit">Order Now</button>
+</form>
+</body>
+<footer>
+    <p>&copy; 2023 Heaven Drops</p>
+  </footer>
+  </html>
